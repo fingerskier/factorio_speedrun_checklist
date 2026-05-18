@@ -1,0 +1,24 @@
+{
+  "title": "Factorio Space Age Speedrun Checklist",
+  "version": 1,
+  "sections": [
+    {
+      "id": "nauvis",
+      "title": "Nauvis",
+      "groups": [
+        {"title":"Spawn (0-5 min)","items":["Mine at least 100 iron ore and 100 coal by hand.","Craft and place first burner miner.","Build two self-feeding burner coal loops.","Mine enough stone to place 12+ furnaces.","Place 8-12 iron furnaces and 4-6 copper furnaces.","Place offshore pump, boilers, and steam engines for first power block."]},
+        {"title":"Red/Green Science (5-30 min)","items":["Bring electric miners online for iron and copper.","Automate red and green science at 30-60 SPM.","Automate gears, circuits, belts, and inserters.","Research Steel Processing, Automation 2, Electronics, and Fluid Handling.","Add a second iron patch and perimeter radar coverage."]},
+        {"title":"Oil & Blue Science (30-120 min)","items":["Claim an oil field and connect crude by pipe or rail.","Run 4-8 refineries with heavy/light cracking.","Automate plastic, sulfur, batteries, and engines.","Automate blue science and stabilize throughput.","Expand power before consumption peaks."]},
+        {"title":"Bot Transition (2-4h)","items":["Build a roboport mall network.","Produce 100+ construction bots and 100+ logistic bots.","Switch mall logistics to provider/requester chests.","Keep belts for bulk raw materials and bots for complex builds."]},
+        {"title":"Purple/Yellow Science (4-6h)","items":["Automate rails, electric furnaces, and productivity modules.","Bring purple science online.","Automate LDS, blue circuits, and flying robot frames.","Bring yellow science online.","Create dedicated blocks for green/red/blue circuits and LDS."]},
+        {"title":"Rocket & Departure","items":["Build rocket silo and automate RCUs, rocket fuel, and LDS surplus.","Build first orbital platform loop (thrusters, cargo, fuel, ammo).","Leave Nauvis only after sustainable launches and >30% power margin."]}
+      ]
+    },
+    {"id":"vulcanus","title":"Vulcanus","groups":[{"title":"Arrival & Bootstrap","items":["Secure landing zone, power, and defenses.","Scout lava and ore; start iron/copper/tungsten lines.","Unlock and mass-produce foundries quickly."]},{"title":"Scale & Export","items":["Replace legacy smelting with foundries.","Automate foundry exports to Nauvis.","Scale steel and tungsten exports."]}]},
+    {"id":"fulgora","title":"Fulgora","groups":[{"title":"Arrival & Recycling","items":["Set up lightning-safe power immediately.","Bootstrap recycler chain and continuous scrap intake."]},{"title":"Electronics Scale","items":["Automate electromagnetic plants.","Scale recycler loops for circuit amplification.","Export blue circuits, batteries, and advanced electronics."]}]},
+    {"id":"gleba","title":"Gleba","groups":[{"title":"Arrival & Bioflux","items":["Secure farm zones and start bioflux.","Implement spoilage handling from the first production lines."]},{"title":"Throughput","items":["Scale nutrient throughput and biochambers.","Automate agriculture with decay-aware logistics.","Prioritize flow over long-term storage buffers."]}]},
+    {"id":"aquilo","title":"Aquilo","groups":[{"title":"Arrival","items":["Stabilize heat and secure fuel chain immediately.","Build insulated logistics for critical routes."]},{"title":"Endgame Scale","items":["Add redundant heat infrastructure.","Ensure reliable imports and large fuel reserves.","Scale endgame science production safely."]}]},
+    {"id":"space_platform","title":"Space Platform","groups":[{"title":"Early Platform","items":["Install thrusters, fuel tanks, cargo bays, ammo, and grabbers.","Start asteroid processing and basic platform production."]},{"title":"Mid/Endgame","items":["Automate ammo and repairs with redundant power.","Enable multi-item logistics and science transport.","Achieve self-sustaining fuel and autonomous defense."]}]},
+    {"id":"global_rules","title":"Global Speedrun Rules","groups":[{"title":"Always Prioritize","items":["Keep labs researching continuously.","Expand power, mining, and smelting before shortages.","Double iron/copper output before bottlenecks hit."]},{"title":"Failure Mode Checks","items":["Audit power headroom every major expansion.","Start steel early and scale continuously.","Fix oil throughput before adding more science.","Transition to bots before base complexity spikes.","Buffer rocket intermediates to prevent launch stalls."]}]}
+  ]
+}
