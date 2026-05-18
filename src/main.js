@@ -9,7 +9,7 @@ const defaultSession = {
 };
 
 async function loadDefaultChecklist() {
-  const res = await fetch('/checklist.json');
+  const res = await fetch(`${import.meta.env.BASE_URL}checklist.json`);
   return res.json();
 }
 
@@ -117,6 +117,6 @@ async function importSession(e, state) {
   render(state);
 
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js');
+    navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`);
   }
 })();
